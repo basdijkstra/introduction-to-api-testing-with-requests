@@ -36,6 +36,13 @@ def test_get_all_users_check_number_of_users_equals_10():
     assert False
 
 
+# Submit a POST request to https://jsonplaceholder.typicode.com/posts
+# to create a new post with a title, body and associated user ID (1-10)
+# Check that the response status code equals HTTP 201 (Created)
+def test_post_new_post_check_status_code_equals_201():
+    assert False
+
+
 test_data_users = [(1, "Leanne Graham"), (2, "Ervin Howell"), (3, "Clementine Bauch")]
 
 
