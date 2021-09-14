@@ -1,7 +1,7 @@
 ### Installation
 Ensure you have a recent version of Python (preferably 3.7 or newer) installed and configured as your interpreter.
 
-Run `pip install -r requirements.txt` from the project root to install the dependencies (`pytest` and `requests`).
+Run `pip install -r requirements.txt` from the project root to install the dependencies ([pytest](https://pypi.org/project/pytest/) and [requests](https://pypi.org/project/requests/)).
 
 ### Running the tests
 Running the tests is as easy as running `pytest <test_file.py>` from the project root, e.g.
